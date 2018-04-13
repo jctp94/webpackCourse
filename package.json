@@ -1,0 +1,29 @@
+{
+  "name": "webpackcourse",
+  "version": "1.0.0",
+  "description": "This project will implement the project of webpack in course of platzi.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode development index.js",
+    "build:local": "webpack --mode development",
+    "build:external": "webpack --mode development --config ./external/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skamilo11/webpackCourse.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "@skamilo11",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/skamilo11/webpackCourse/issues"
+  },
+  "homepage": "https://github.com/skamilo11/webpackCourse#readme",
+  "devDependencies": {
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14"
+  }
+}
