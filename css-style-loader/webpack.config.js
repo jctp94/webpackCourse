@@ -13,7 +13,7 @@ module.exports ={
                 // test: what kind of file will recognize
                 // use: what loader will take care the file
                 test: /\.css$/,
-                use: ['style-loader','css-loader']
+                use: [ 'style-loader', 'css-loader' ]
             }
         ]
     }
