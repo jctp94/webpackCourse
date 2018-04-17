@@ -8,12 +8,7 @@ module.exports = {
         filename: 'bundle.js',
     },
     devServer: {
-        headers: {
-            'Access-Control-Allow-Origin': '*'
-        },
-        open: true,
-        https: false,
-        disableHostCheck: true,
+        
         // compress: true,
         port: 8000,
         // after(app){
