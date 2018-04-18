@@ -1,9 +1,12 @@
-// module.exports =
+class test{
+    constructor(){
 
-function makeMessage(msg){
-    const element = document.createElement('p');
-    element.textContent = msg;
-    return element;
+    }
+    async makeMessage(msg){
+        const element = document.createElement('p');
+        element.textContent = msg;
+        return element;
+    }
 }
 
-export default makeMessage;
+export default test;
