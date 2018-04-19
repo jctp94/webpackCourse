@@ -1,0 +1,20 @@
+{
+    "teachers":[
+        {
+            "name":"Pepito 1",
+            "twitter":"pepito1"
+        },
+        {
+            "name":"Pepito 2",
+            "twitter":"pepito2"
+        },
+        {
+            "name":"Pepito 3",
+            "twitter":"pepito3"
+        },
+        {
+            "name":"Pepito 4",
+            "twitter":"pepito4"
+        }
+    ]
+}
