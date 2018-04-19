@@ -16,7 +16,8 @@
     "build:imgs": "webpack --config ./url-loader-img/webpack.config.js",
     "build:fonts": "webpack --config ./url-loader-fonts/webpack.config.js",
     "build:video": "webpack --config ./file-loader-video/webpack.config.js",
-    "build:json": "webpack --config ./json-loader/webpack.config.js"
+    "build:json": "webpack --config ./json-loader/webpack.config.js",
+    "build:react": "webpack --config ./react/webpack.config.js"
   },
   "repository": {
     "type": "git",
